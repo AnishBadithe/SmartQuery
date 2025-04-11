@@ -1,10 +1,6 @@
 # Hide environment config
 .env
 
-# SQLite DB files
-*.db
-*.sqlite3
-
 # Python cache
 __pycache__/
 *.pyc
@@ -19,3 +15,5 @@ venv/
 #excel files
 *.xls
 *.xlsx
+
+*.devcontainer

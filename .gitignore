@@ -1,0 +1,20 @@
+# Hide environment config
+.env
+
+# SQLite DB files
+*.db
+*.sqlite3
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment folders
+venv/
+.env/
+
+# Streamlit logs or temp files
+*.log
+
+#excel files
+.xlsx

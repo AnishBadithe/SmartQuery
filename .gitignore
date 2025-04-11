@@ -17,4 +17,4 @@ venv/
 *.log
 
 #excel files
-.xlsx
+*.xlsx

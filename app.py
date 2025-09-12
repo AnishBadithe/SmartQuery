@@ -38,7 +38,7 @@ def is_valid_password(password):
 # Function to Load Gemini Model and Provide Response
 def get_gemini_response(question, prompt):
     try:
-        model = genai.GenerativeModel("gemini-1.5-pro")
+        model = genai.GenerativeModel("gemini-2.5-flash")
         full_prompt = prompt[0] + "\n\nUser Request: " + question
         response = model.generate_content(full_prompt)
         return response.text.strip()
